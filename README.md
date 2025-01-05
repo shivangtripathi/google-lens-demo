@@ -48,18 +48,5 @@ npm run android
 
 ## Project Structure
 
-google-lens-clone/
-├── src/
-│   ├── components/      # Reusable UI components
-│   ├── config/          # Theme configs
-│   ├── screens/         # App screens (e.g., Home, Image Analysis)
-│   ├── navigator/       # Navigation setup (React Navigation)
-│   ├── assets/          # Static assets (images, icons, etc.)
-│   ├── utils/           # Util functions
-├── android/             # Android-specific files
-├── ios/                 # iOS-specific files
-├── .env                 # Environment variables
-├── App.tsx              # Main entry point
-└── README.md            # Project documentation
-
+![App Preview](./assets/project.png)
 

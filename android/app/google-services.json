@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "206114627242",
+    "project_id": "lens-edaae",
+    "storage_bucket": "lens-edaae.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206114627242:android:2f4bcdecd62f5ed9bdfad3",
+        "android_client_info": {
+          "package_name": "com.googlelens"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206114627242-vtusgeoumk3u1r2k6la50lhm73a864r5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.googlelens",
+            "certificate_hash": "08233a69e709ac7776e9832383380adc135384dc"
+          }
+        },
+        {
+          "client_id": "206114627242-elfi0pifslaqmsp1tv1r2nidc8reqqkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClEPrhkRCGmo6DyPYrBSJaFgBRvfQe5RQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206114627242-elfi0pifslaqmsp1tv1r2nidc8reqqkv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

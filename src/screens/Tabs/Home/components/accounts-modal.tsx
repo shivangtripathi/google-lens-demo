@@ -17,6 +17,7 @@ const AccountsModal = ({hideModal}: {hideModal: () => void}) => {
   const [modalVisible, setModalVisible] = useState(true);
 
   const user = auth().currentUser;
+
   const handleHideModal = () => {
     setModalVisible(false);
     hideModal();
@@ -65,8 +66,8 @@ const AccountsModal = ({hideModal}: {hideModal: () => void}) => {
                 style={styles.profileImage}
               />
               <View style={{ flex: 1 }}>
-                <Text style={styles.nameText}>Shivang Tripathi</Text>
-                <Text style={styles.emailText}>shivangtripathi2000@gmail.com</Text>
+                <Text style={styles.nameText}>{user?.displayName}</Text>
+                <Text style={styles.emailText}>{user?.email}</Text>
               </View>
               <TouchableOpacity onPress={handleHideModal}>
                 <Text style={styles.closeButton}>✕</Text>
